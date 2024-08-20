@@ -1,0 +1,90 @@
+@media (max-width: 400px) {
+  .contant .container .info .label,
+  .contant .container .info .link {
+    font-size: 20px;
+  }
+
+  .contant .container .social {
+    flex-direction: column;
+  }
+
+  .contant .container .social a:first-child {
+    margin-top: 20px;
+  }
+
+  .contant .container .social a {
+    margin-bottom: 20px;
+    padding: 0 10px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .special-heading {
+    font-size: 60px;
+  }
+  .special-heading + p {
+    margin-top: -20px;
+  }
+
+  .services-content .col .ser {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .services-content .col .ser .text h3 {
+    text-align: center;
+  }
+
+  .image-column {
+    display: none;
+  }
+}
+
+@media (max-width: 1199px) {
+  .image-column {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .about-content {
+    flex-direction: column;
+  }
+  .about-content .text {
+    margin-top: 100px;
+  }
+  .about .about-content .text p:first-child {
+    text-align: center;
+  }
+  .about .about-content .text p:last-child {
+    text-align: center;
+  }
+  .about .about-content .image {
+    margin: 0 auto;
+  }
+  .about .about-content .image::after {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Extra small devices (portrait phones, less than 576px) */
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Small devices (landscape phones, 576px and up) */
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Medium devices (tablets, 768px and up) */
+  .container {
+    width: 1170px;
+  }
+}
